@@ -1,0 +1,18 @@
+@import './assets/variables';
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: Red Ring,sans-serif;
+	margin: 0 auto;
+	padding: 0;
+}
+.container{
+	width: 1440px;
+	margin: 0 auto;
+}

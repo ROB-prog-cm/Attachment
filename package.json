@@ -1,0 +1,79 @@
+{
+  "name": "garsby",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run dev",
+    "type-check": "tsc --noEmit",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "effector": "^20.16.2",
+    "effector-react": "^20.7.4",
+    "effector-react-form": "^2.0.21",
+    "effector-react-form-v1": "npm:effector-react-form@^1.0.49",
+    "jsx-to-string": "^1.4.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.isequal": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-syntax-highlighter": "^12.2.1",
+    "react-virtualized": "^9.21.2"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/lodash.isequal": "^4.5.5",
+    "@types/node": "^13.1.5",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-syntax-highlighter": "^11.0.4",
+    "@types/react-virtualized": "^9.21.10",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "gatsby": "^2.29.2",
+    "gatsby-image": "^2.8.0",
+    "gatsby-plugin-intl": "^0.3.3",
+    "gatsby-plugin-manifest": "^2.9.1",
+    "gatsby-plugin-offline": "^3.7.1",
+    "gatsby-plugin-react-helmet": "^3.7.0",
+    "gatsby-plugin-root-import": "^2.0.5",
+    "gatsby-plugin-sass": "^2.8.0",
+    "gatsby-plugin-sharp": "^2.11.2",
+    "gatsby-plugin-typescript": "^2.9.0",
+    "gatsby-source-filesystem": "^2.8.1",
+    "gatsby-transformer-sharp": "^2.9.0",
+    "prettier": "^1.19.1",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "typescript": "^4.1.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
